@@ -1,6 +1,6 @@
 package com.code.InfoCode;
-import java.util.Scanner;
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class BusinessRun {
     
@@ -12,6 +12,8 @@ public class BusinessRun {
         //Culvers (1)
         b.add(new Business("Culvers", "Fast Food", "Food For Concessions", "847-383-5459 Culver's Phone", "405 Milwaukee Ave, Lincolnshire, IL 60069, USA", "$321.75"));
         //Marianos(2)
+        b.add(new Business("Culvers 2", "Fast Food", "Food For Concessions", "847-383-5459 Culver's Phone", "405 Milwaukee Ave, Lincolnshire, IL 60069, USA", "$321.75"));
+
         b.add(new Business("Marianos", "Grocery Store", "Food/Ingredients in Cafeteria", "224-918-4623 Mariono's Phone", "450 W Half Day Rd, Buffalo Grove, IL 60089, USA", "$1,600.00")); 
         //Chipotle(3)
         b.add(new Business("Chipotle", "Fast Food","Food for Special Occasions", "847-478-3230 Chipotle Phone", "950 Milwaukee Ave A, Lincolnshire, IL 60069, USA", "$1,200.00"));
